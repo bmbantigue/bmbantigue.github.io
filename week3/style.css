@@ -1,0 +1,33 @@
+h1{
+    color: red;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: Arial;
+    background-color: violet;
+    margin: 100px;
+}
+
+.par1{
+    color: white;
+    background-color: purple;
+    width: 50%;
+    border-top: 2px dashed red;
+    border-bottom: 5px dotted blue;
+    padding-top: 100px;
+}
+
+.myspan{
+    color: brown;
+}
+
+body{
+    background-color: black;
+    background-image: url("images/cat.jpg");
+    background-size: cover;
+}
