@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    font-weight: normal;
+}
+
+.top_section {
+    background-color:  #212529;
+    justify-content: baseline;
+    display: flex;
+}
+
+.arat_na_travel {
+    margin-left: 5px;
+}
+
+.arat_na_travel, .home, .features, .pricing, .faqs, .about {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    display: flex; 
+    background-color: #212529;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.top_tab {
+    display: flex;
+    margin-left: 800px;
+}
+
+.home {
+    background-color: #198753;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+}
+
+.features, .pricing, .faqs, .about {
+    display: flex;
+}
+
+.create_acc_box {
+    background-color: #e2e3e5;
+    display: flex;
+}
+
+.img_slide_box {
+    background-image: url(images/create_acc_airplane.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+}
+
+.img_slide_texts {
+    padding-top: 35%;
+}
+
+.slide_box_text1, .slide_box_text2 {
+    text-align: center;
+    color: white;
+}
+
+.slide_box_text1 {
+    padding-bottom: 10px;
+}
+
+.slide_box_text2 {
+    font-size: 13px;
+}
+
+.info_form_box {
+    margin-left: 20px;
+}
+
+.create_an_acc_text, .fn_text, .ln_text, .un_text {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.fn_form, .ln_form, .un_form {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50%;
+    background-color: white; 
+}
+
+.fn_text, .ln_text, .un_text {
+    font-size: 15px;
+}
+
+
+.address_box {
+    display: flex;
+}
+
+.city_text, .state_text, .zip_text {
+    margin: 20px;
+    margin-right: 70px;
+    font-size: 15px;
+}
+
+.state_form , .zip_form {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50%;
+    background-color: white; 
+}
+
+.city_form {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    outline: none;
+    border-radius: 5px;
+    width: 50%;
+    background-color: white; 
+}
+
+.terms_condition_box {
+    display: flex;
+}
+
+.check_box {
+    border: 10px solid white;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.terms_condition_text {
+    font-size: 15px;
+    background-color: #e2e3e5;
+    padding-top: 5%;
+}
+
+.create_acc_button {
+    background-color: #198753;
+    color: white;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
