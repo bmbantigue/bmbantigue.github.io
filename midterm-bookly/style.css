@@ -1,6 +1,95 @@
-.nunito-body {
+* {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 1000;
+  font-weight: 400;
   font-style: normal;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.row-1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/banner-image-bg.jpg) !important;
+}
+
+.row-2, .row-3, .row-5, .row-6, .footer-row {
+  margin-bottom: 10%;
+}
+
+.row-4 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/banner-image-bg-1.jpg) !important;
+}
+
+.heading-fw-fs {
+  font-weight: 700;
+  font-size: 50px !important;
+}
+
+.btn {
+  color: white ;
+  background-color: #f86d72;
+  border-radius: 20px;
+  font-size: 85%;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px !important;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(78, 78, 78) !important;
+}
+
+.item-price {
+  color: #f86d72;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.author-name {
+  color: rgb(119, 119, 119);
+}
+
+.category-card:hover,.best-sell-card:hover {
+      transform: translateY(-8px);
+}
+
+.category-card {
+  border-radius: 10px;
+  margin: 5px;
+  overflow: hidden;
+  position: relative;
+}
+    
+.category-img {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+}
+    
+.category-label {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #f86d72;
+  color: white;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.footer-link {
+  color: black !important;
 }

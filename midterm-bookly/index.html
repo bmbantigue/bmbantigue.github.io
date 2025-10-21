@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Bootstrap demo</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    
-        <!--nunito html-->
+        <link rel="stylesheet" href="style.css">
+        <!--Nunito font link-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
@@ -14,38 +14,331 @@
     <body>
         <!--navbar-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+            <div class="container-fluid ps-5">
                 <!--main logo-->
                 <a class="navbar-brand" href="#"><img src="images/main-logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!--2nd column (navbar tabs)-->
+                <!--2nd column navbar-->
                 <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNav">
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active " aria-current="page" href="#">HOME</a>
+                        <a class="nav-link active " style=" color: #f86d72 !important;" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link active" href="#">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SHOP</a>
+                        <a class="nav-link active" href="#">SHOP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">BLOGS</a>
+                        <a class="nav-link active" href="#">BLOGS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PAGES</a>
+                        <a class="nav-link active" href="#">PAGES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link active" href="#">CONTACT</a>
                     </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+        <!--1st row-->
+        <div class="row-1">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="row">
+                        <p class="text-start fs-1 heading-fw-fs">The Fine Print Book Collection</p>
+                        </div>
+                        <div class="row">
+                            <p class="text-start fs-6 hotdog">Best Offer Save 30%. Grab it now!</p>
+                        </div>
+                        <div class="text-start">
+                            <button type="button" class="btn">Shop Collection</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                    <img src="images/banner-image2.png" class="img-fluid" alt="banner-image2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--2nd row-->
+        <div class="row-2 container text-center">
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class="row">
+                        <p class="text-start fs-5 fw-bold">Free Delivery <br><span class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <p class="text-start fs-5 fw-bold">Quality Guarantee <br><span class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <p class="text-start fs-5 fw-bold">Daily Offers <br><span class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <p class="text-start fs-5 fw-bold">100% Secure Payment <br><span class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--3rd row-->
+        <div class="row-3 container text-start">
+            <div class="row align-items-center pb-3">
+                <div class="col">
+                    <p class="text-start fs-3 fw-bold">Best Selling Items</p>
+                </div>
+                <div class="col text-end me-3">
+                    <button type="button" class="btn">View All</button>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <!--card 1-->
+                    <div class="card best-sell-card" style="width: 18rem;">
+                        <div class="card-body">
+                            <img src="images/product-item1.png" class="card-img-top img-fluid" alt="product-item1" style="padding-bottom: 10%;">
+                            <h5 class="card-title text-start fw-bold">House Of Sky Breath</h5>
+                            <p class="card-text text-start" class="author-name">Lauren Asher</p>
+                            <p class="item-price text-start" >$870</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <!--card 2-->
+                    <div class="card best-sell-card" style="width: 18rem;">
+                        <div class="card-body">
+                            <img src="images/product-item2.png" class="card-img-top img-fluid" alt="product-item2" style="padding-bottom: 10%;">
+                            <h5 class="card-title text-start fw-bold">Heartland Starsh</h5>
+                            <p class="card-text text-start" class="author-name">Lauren Asher</p>
+                            <p class="item-price text-start" >$870</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <!--card 3-->
+                    <div class="card best-sell-card" style="width: 18rem;">
+                        <div class="card-body">
+                            <img src="images/product-item3.png" class="card-img-top img-fluid" alt="product-item3" style="padding-bottom: 10%;">
+                            <h5 class="card-title text-start fw-bold">Heavenly Bodies</h5>
+                            <p class="card-text text-start" class="author-name">Lauren Asher</p>
+                            <p class="item-price text-start" >$870</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <!--card 4-->
+                    <div class="card best-sell-card " style="width: 18rem;">
+                        <div class="card-body">
+                            <img src="images/product-item4.png" class="card-img-top img-fluid" alt="product-item4" style="padding-bottom: 10%;">
+                            <h5 class="card-title text-start fw-bold">His Saving Grace</h5>
+                            <p class="card-text text-start" class="author-name">Lauren Asher</p>
+                            <p class="item-price text-start" >$870</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--4th row-->
+        <div class="row-4">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <img src="images/banner-image3.png" class="img-fluid" alt="banner-image3">
+                    </div>
+                    <div class="col">
+                        <p class="text-start fs-1 heading-fw-fs">30% Discount On All Items. Hurry Up !!!</p>
+                        <div class="text-start">
+                            <button type="button" class="btn">Shop Collection</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--5th row-->
+        <div class="row-5 container text-center">
+            <div class="row align-items-center">
+                <!--Featured-->
+                <div class="col">
+                    <div class="card" style="max-width: 540px;">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush text-start">
+                                <!--1st Featured book-->
+                                <li class="list-group-item p-4">
+                                    <div class="row g-0">
+                                        <h5 class="card-title text-start fw-bold fs-3 mb-5">Featured</h5>
+                                        <div class="col-md-4">
+                                            <img src="images/product-item2.png" class="img-fluid" alt="product-item2">
+                                        </div>
+                                        <div class="col-md-8 p-3">
+                                            <p class="card-text fw-bold">Echoes Of The Ancients<br>
+                                            <span class="author-name">Lauren Asher</span><br>
+                                            <span class="item-price text-start">$870<span></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--2nd Featured book-->
+                                <li class="list-group-item p-4">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="images/product-item1.png" class="img-fluid" alt="product-item2">
+                                        </div>
+                                        <div class="col-md-8 p-3">
+                                            <p class="card-text fw-bold">The Midnight Garden<br>
+                                            <span class="author-name">Lauren Asher</span><br>
+                                            <span class="item-price text-start">$870<span></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--3rd Featured book-->
+                                <li class="list-group-item p-4">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="images/product-item3.png" class="img-fluid" alt="product-item3">
+                                        </div>
+                                        <div class="col-md-8 p-3">
+                                            <p class="card-text fw-bold">Shadow Of The Serpent<br>
+                                            <span class="author-name">Lauren Asher</span><br>
+                                            <span class="item-price text-start">$870<span></p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Latest Items-->
+                <div class="col">
+                    <div class="card" style="max-width: 540px;">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush text-start">
+                                <!--1st Latest Items-->
+                                <li class="list-group-item p-4">
+                                    <div class="row g-0">
+                                        <h5 class="card-title text-start fw-bold fs-3 mb-5">Latest Items</h5>
+                                        <div class="col-md-4">
+                                            <img src="images/product-item4.png" class="img-fluid" alt="product-item4">
+                                        </div>
+                                        <div class="col-md-8 p-3">
+                                            <p class="card-text fw-bold">Whispering Winds<br>
+                                            <span class="author-name">Lauren Asher</span><br>
+                                            <span class="item-price text-start">$870<span></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--2nd Latest Items-->
+                                <li class="list-group-item p-4">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="images/product-item5.png" class="img-fluid" alt="product-item5">
+                                        </div>
+                                        <div class="col-md-8 p-3">
+                                            <p class="card-text fw-bold">The Forgotten Realm<br>
+                                            <span class="author-name">Lauren Asher</span><br>
+                                            <span class="item-price text-start">$870<span></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--3rd Latest Items-->
+                                <li class="list-group-item p-4">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="images/product-item6.png" class="img-fluid" alt="product-item6">
+                                        </div>
+                                        <div class="col-md-8 p-3">
+                                            <p class="card-text fw-bold">Moonlit Secrets<br>
+                                            <span class="author-name">Lauren Asher</span><br>
+                                            <span class="item-price text-start">$870<span></p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--6th row-->
+        <div class="row-6 container text-start">
+            <div class="row">
+                <p class="text-start fs-3 fw-bold">Categories</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="category-card">
+                        <img src="images/category1.jpg" class="category-img" alt="category1">
+                        <span class="category-label">Romance</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="category-card">
+                        <img src="images/category2.jpg" class="category-img" alt="category2">
+                        <span class="category-label">Lifestyle</span>
+                    </div>
+                </div>
+        
+                <div class="col-md-4">
+                    <div class="category-card">
+                        <img src="images/category3.jpg" class="category-img" alt="category3">
+                        <span class="category-label">Recipe</span>
+                    </div>
+                </div>
+            </div>   
+        </div>
+
+        <!--Footer-->
+        <div class="footer-row container">
+            <div class="row">
+                <div class="col">
+                    <img src="images/main-logo.png" style="margin-bottom: 10px;" alt="main-logo">
+                    <p class="fs-5 pe-5">
+                        Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean odio erat nullam fringilla.
+                    </p>
+                </div>
+
+                <div class="col">
+                    <p class="fs-4 mb-3">Quick Links</p>
+                    <p><a href="#" class="footer-link fs-6 link-offset-2 link-underline link-underline-opacity-0">Home</a></p>
+                    <p><a href="#" class="footer-link fs-6 link-offset-2 link-underline link-underline-opacity-0">About</a></p>
+                    <p><a href="#" class="footer-link fs-6 link-offset-2 link-underline link-underline-opacity-0">Shop</a></p>
+                    <p><a href="#" class="footer-link fs-6 link-offset-2 link-underline link-underline-opacity-0">Blogs</a></p>
+                    <p><a href="#" class="footer-link fs-6 link-offset-2 link-underline link-underline-opacity-0">Contact</a></p>
+                </div>
+
+                <div class="col">
+                    <p class="fs-4 mb-3">Help & Info Help</p>
+                    <p class="fs-6">Track Your Order</p>
+                    <p class="fs-6">Returns Policies</p>
+                    <p class="fs-6">Shipping + Delivery</p>
+                    <p class="fs-6">Contact Us</p>
+                    <p class="fs-6">Faqs</p>
+                </div>
+                <div class="col">
+                    <p class="fs-4 mb-3">Contact Us</p>
+                    <p class="fs-5 pe-5">Do you have any queries or suggestions? <a href="#" class="fs-5 pe-5 footer-link">yourinfo@gmail.com</a></p>
+                    <p class="fs-5 pe-5">If you need support? Just give us a call. <a href="#" class="fs-5 pe-5 footer-link">+55 111 222 333 44</a></p>
+                </div>
+            </div>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
